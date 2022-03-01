@@ -1,0 +1,20 @@
+void main() {
+ String ali = "this is ali's class 07 grade";
+  num urdu_marks = 79;
+  num isl_marks = 67;
+  num eng_marks = 89;
+  num sci_marks = 88;
+  num gk_marks = 99;
+  
+  var total_marks = 500;
+  var obt_marks = (urdu_marks + isl_marks + eng_marks + sci_marks + gk_marks);
+  
+  var calc_percentage = (obt_marks * 100);
+  var total_percentage = (calc_percentage ~/ total_marks);
+  
+  print (ali);
+  print (total_percentage);
+  
+  if (total_percentage > 80);
+  print ("B+ Grade");
+  }
